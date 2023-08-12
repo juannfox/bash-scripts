@@ -18,4 +18,6 @@ echo "export PATH=\$PATH:$script_path" >> $rc_path
 
 export PATH=$PATH:$script_path
 
+chmod +x $script_path/*
+
 echo "Added $2 as part of PATH in $1."
